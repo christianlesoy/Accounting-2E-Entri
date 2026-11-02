@@ -1,0 +1,10 @@
+CREATE USER IF NOT EXISTS 'entri_app'@'localhost'
+  IDENTIFIED BY 'REPLACE_WITH_YOUR_PASSWORD';
+
+ALTER USER 'entri_app'@'localhost'
+  IDENTIFIED BY 'REPLACE_WITH_YOUR_PASSWORD';
+
+GRANT SELECT, INSERT, UPDATE, DELETE
+  ON entri_db.* TO 'entri_app'@'localhost';
+
+FLUSH PRIVILEGES;

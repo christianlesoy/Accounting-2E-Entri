@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java"
+    ],
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": [
+        "lib/postgresql-42.7.14.jar",
+        "C:\\javafx-sdk-21\\lib\\*.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
